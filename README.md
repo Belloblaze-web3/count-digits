@@ -37,3 +37,13 @@ python3 count_digits.py
 8 0
 9 0
 ```
+
+## Tests
+
+Run the unit tests with:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+The test suite covers the sample input, repeated digits, all digits appearing once, and leading zeroes. Additional inputs are in `tests/sample_input.txt` and `tests/edge_cases_input.txt`.
